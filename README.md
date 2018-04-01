@@ -22,7 +22,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![xss](https://user-images.githubusercontent.com/15334096/38169106-dac0eaae-352e-11e8-9e42-2c37fdc20bd1.gif)
   - [ ] Steps to recreate: Post a reply on one of the pages. Insert javascript for alert and make sure message is bigger than 64kb. Then when submitted, an alert box should appear.
   - [ ] Affected source code: 
 
