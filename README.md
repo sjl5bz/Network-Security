@@ -8,7 +8,7 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) Unauthenticated Stored XSS
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -17,14 +17,15 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+1. (Required) Unauthenticated Stored XSS
+  - [ ] Summary: Created a cross site scripting attack using a window alert
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] Steps to recreate: Post a reply on one of the pages. Insert javascript for alert and make sure message is bigger than 64kb. Then when submitted, an alert box should appear.
+  - [ ] Affected source code: 
+
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
