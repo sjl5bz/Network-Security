@@ -36,7 +36,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Upload the malicious mp3 file into media. Then create an audio playlist with the malicious file. Insert the audio playlist into a post/page. 
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
-1. (Optional) Vulnerability Name or ID
+4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -45,7 +45,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
+5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
