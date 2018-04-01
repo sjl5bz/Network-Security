@@ -26,7 +26,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Post a reply on one of the pages. Insert javascript for alert and make sure message is bigger than 64kb. Then when submitted, an alert box should appear.
   - [ ] Affected source code: 
 
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](http://klikki.fi/adv/wordpress2.html)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
