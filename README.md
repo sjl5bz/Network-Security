@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
-  - [ ] GIF Walkthrough: ![xss2](https://user-images.githubusercontent.com/15334096/38174100-32c79894-3596-11e8-8c2c-d92ca6c49038.gif)
+  - [ ] GIF Walkthrough: ![xss2](https://user-images.githubusercontent.com/15334096/38174230-31899160-3598-11e8-8228-2aa46e740ec9.gif)
   - [ ] Steps to recreate: Create a post or page. Click on text instead of visual and insert a caption with the XSS attack. I used an alert. ``` TEST!!![caption width="1" caption='<a href="' ">]<a href="http://onMouseOver='alert(2)'">Click me</a>```
   - [ ] Affected source code: <img width="498" alt="screen shot 2018-04-01 at 10 15 10 am" src="https://user-images.githubusercontent.com/15334096/38174105-5cef7ae2-3596-11e8-8a7f-0dcd5815c6f4.png">
     - [Link 1](http://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/)
