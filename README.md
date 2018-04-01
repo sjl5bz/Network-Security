@@ -9,7 +9,7 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 1. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [ ] Summary: Vulnerable to a cross-site scripting vulnerability when processing shortcode tags. Inserting a caption in a post/page with the javascript works. 
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.5
@@ -18,7 +18,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code: <img width="498" alt="screen shot 2018-04-01 at 10 15 10 am" src="https://user-images.githubusercontent.com/15334096/38174105-5cef7ae2-3596-11e8-8a7f-0dcd5815c6f4.png">
     - [Link 1](http://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/)
 2. (Required) Unauthenticated Stored XSS
-  - [ ] Summary: Created a cross site scripting attack using a window alert
+  - [ ] Summary: Created a cross site scripting attack using a window alert in the comments section.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
