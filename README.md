@@ -17,7 +17,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: Create a post or page. Click on text instead of visual and insert a caption with the XSS attack. I used an alert. ``` TEST!!![caption width="1" caption='<a href="' ">]<a href="http://onMouseOver='alert(2)'">Click me</a>```
   - [ ] Affected source code: <img width="498" alt="screen shot 2018-04-01 at 10 15 10 am" src="https://user-images.githubusercontent.com/15334096/38174105-5cef7ae2-3596-11e8-8a7f-0dcd5815c6f4.png">
     - [Link 1](http://blog.knownsec.com/2015/09/wordpress-vulnerability-analysis-cve-2015-5714-cve-2015-5715/)
-1. (Required) Unauthenticated Stored XSS
+2. (Required) Unauthenticated Stored XSS
   - [ ] Summary: Created a cross site scripting attack using a window alert
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -27,15 +27,15 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code: 
 
     - [Link 1](http://klikki.fi/adv/wordpress2.html)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+3. (Required) Authenticated Cross-Site Scripting (XSS) via Media File Metadata
+  - [ ] Summary: XSS vulnerability when uploading audio files. Attacker can upload malicious mp3 files which can be executed when you create an audio playlist. Meta information in audio files are not properly sanitized. 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2 
+    - Fixed in version: 4.2.13
+  - [ ] GIF Walkthrough: ![xss3](https://user-images.githubusercontent.com/15334096/38174776-a192d0d6-35a0-11e8-8912-0ebdfcf7b48d.gif)
+  - [ ] Steps to recreate: Upload the malicious mp3 file into media. Then create an audio playlist with the malicious file. Insert the audio playlist into a post/page. 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://github.com/WordPress/WordPress/commit/28f838ca3ee205b6f39cd2bf23eb4e5f52796bd7)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
